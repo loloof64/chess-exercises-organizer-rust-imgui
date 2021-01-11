@@ -3,7 +3,7 @@ use imgui::*;
 mod support;
 
 fn main() {
-    let system = support::init(file!());
+    let system = support::init("Chess exercises organizer", 400f64, 200f64);
     system.main_loop(move |_, ui| {
         Window::new(im_str!("Hello world"))
             .size([300.0, 110.0], Condition::FirstUseEver)
