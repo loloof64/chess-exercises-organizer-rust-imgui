@@ -1,0 +1,13 @@
+[package]
+name = "chess-exercises-organizer-rust-imgui"
+version = "0.1.0"
+authors = ["Laurent Bernabe <laurent.bernabe@gmail.com>"]
+edition = "2018"
+
+[dependencies]
+imgui = "0.6.1"
+imgui-glium-renderer = "0.6.1"
+imgui-winit-support = "0.6.1"
+glium = "0.29.0"
+winit = "0.24.0"
+clipboard = "0.5"
